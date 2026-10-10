@@ -1,0 +1,501 @@
+Farmer_ID,Farmer_Name,Loan_Amount,Outstanding_Loan,Loan_Repayment_History,Financial_History_Score,Crop_Type,Farm_Size_acres,Irrigation_Type,Soil_Type,Historical_Yield,Previous_Yield,Rainfall_mm,Temperature_C,Soil_Moisture,Crop_Health_Index,Yield_tons
+FARM-1001,Sunita Shinde,50000,35603,Mostly on time,633,Rice,17.1,Sprinkler,Sandy loam,11.3,11.0,842.4,20.7,53.9,0.58,2.55
+FARM-1002,Pooja Verma,150000,88862,Always on time,640,Onion,19.7,Sprinkler,Alluvial,8.1,6.6,561.4,22.1,64.0,0.47,3.06
+FARM-1003,Deepak Kulkarni,250000,68568,Mostly on time,647,Wheat,16.2,Drip System,Red loamy,16.3,12.5,681.4,26.6,80.4,0.56,5.67
+FARM-1004,Pooja Sharma,250000,117356,Always on time,695,Rice,17.3,Rain-fed,Sandy loam,16.0,14.7,500.4,19.0,60.4,0.71,3.61
+FARM-1005,Sunita Gaikwad,200000,152257,Always on time,625,Wheat,6.0,Rain-fed,Sandy loam,9.0,8.4,965.6,23.0,60.3,0.64,2.33
+FARM-1006,Anil Jadhav,300000,239977,Mostly on time,704,Cotton,19.3,Sprinkler,Black cotton soil,13.8,14.0,745.8,24.7,71.1,0.59,5.44
+FARM-1007,Deepak More,50000,25135,1 delayed payment,644,Wheat,5.1,Sprinkler,Red loamy,12.6,11.6,797.1,21.7,60.8,0.81,2.32
+FARM-1008,Ganesh Sharma,50000,25627,Always on time,564,Cotton,19.1,Sprinkler,Sandy loam,9.2,7.9,964.9,18.5,69.5,0.89,6.69
+FARM-1009,Vijay Kulkarni,100000,79699,Always on time,647,Soybean,19.9,Rain-fed,Sandy loam,17.8,17.6,670.0,28.2,76.2,0.82,6.9
+FARM-1010,Ganesh Kale,200000,116318,Always on time,568,Wheat,14.7,Drip System,Red loamy,10.1,9.2,743.8,27.2,55.1,0.58,3.14
+FARM-1011,Rahul Sharma,500000,110675,Always on time,653,Rice,19.7,Drip System,Alluvial,8.7,6.7,609.9,30.1,20.0,0.81,1.66
+FARM-1012,Suresh Kulkarni,500000,396643,Mostly on time,716,Cotton,12.0,Rain-fed,Sandy loam,13.9,12.8,609.5,22.6,47.7,0.48,0.83
+FARM-1013,Sachin Rao,100000,36134,Always on time,564,Rice,6.3,Canal,Black cotton soil,15.4,15.7,634.3,30.0,78.1,0.47,1.15
+FARM-1014,Rahul Deshmukh,100000,57546,Mostly on time,679,Sugarcane,9.6,Drip System,Sandy loam,8.3,7.2,711.4,33.1,59.5,0.59,2.23
+FARM-1015,Sachin Sharma,100000,30758,Always on time,583,Cotton,12.5,Sprinkler,Black cotton soil,14.6,12.2,730.7,28.0,54.9,0.84,3.66
+FARM-1016,Ramesh Joshi,300000,66606,Always on time,666,Wheat,2.9,Canal,Black cotton soil,13.3,10.5,852.0,24.6,77.5,0.54,1.03
+FARM-1017,Kavita Pawar,300000,120737,Always on time,718,Cotton,13.0,Canal,Sandy loam,9.0,7.2,639.6,27.6,58.5,0.43,2.13
+FARM-1018,Pooja Joshi,150000,106098,Always on time,479,Rice,19.7,Drip System,Sandy loam,9.7,8.5,857.5,24.4,28.6,0.47,1.95
+FARM-1019,Mahesh Patil,150000,57064,Always on time,560,Soybean,5.0,Canal,Black cotton soil,13.7,12.7,887.3,23.7,37.4,0.87,0.78
+FARM-1020,Deepak More,100000,34306,Always on time,620,Cotton,16.2,Canal,Red loamy,11.0,8.5,715.8,29.7,66.3,0.75,5.3
+FARM-1021,Anita Gaikwad,200000,67648,1 delayed payment,675,Wheat,18.3,Drip System,Red loamy,17.4,18.0,655.1,26.4,59.0,0.54,3.0
+FARM-1022,Sachin Joshi,50000,26743,Always on time,636,Sugarcane,19.0,Drip System,Sandy loam,16.2,15.8,815.3,31.8,81.8,0.71,6.72
+FARM-1023,Anita Rao,300000,250230,Frequently delayed,646,Onion,19.3,Canal,Alluvial,17.8,16.5,763.5,25.2,49.0,0.69,5.68
+FARM-1024,Vikram Verma,200000,99668,Always on time,813,Soybean,11.1,Sprinkler,Red loamy,10.6,10.6,839.7,25.6,55.4,0.76,3.29
+FARM-1025,Vikram Kale,250000,140562,1 delayed payment,553,Sugarcane,19.6,Rain-fed,Sandy loam,17.7,13.7,1082.6,24.7,46.7,0.53,2.4
+FARM-1026,Sachin Jadhav,300000,227823,Mostly on time,740,Cotton,15.5,Canal,Red loamy,12.3,11.0,812.4,22.5,52.2,0.88,5.52
+FARM-1027,Vijay Chavan,300000,164338,Mostly on time,622,Rice,4.5,Canal,Alluvial,11.5,10.8,684.9,30.3,31.6,0.57,0.56
+FARM-1028,Anil Sharma,150000,47985,Mostly on time,693,Rice,10.3,Sprinkler,Sandy loam,8.5,8.5,639.6,35.7,54.2,0.78,2.25
+FARM-1029,Anil Jadhav,50000,19736,Mostly on time,820,Wheat,14.8,Canal,Alluvial,8.5,8.4,646.6,25.5,59.2,0.41,2.41
+FARM-1030,Priya Chavan,50000,20072,Mostly on time,705,Rice,6.1,Canal,Sandy loam,14.9,12.4,536.7,24.3,58.0,0.6,0.5
+FARM-1031,Sunita Deshmukh,500000,229128,Mostly on time,679,Soybean,13.4,Rain-fed,Alluvial,12.6,13.0,967.9,24.0,92.2,0.59,5.29
+FARM-1032,Vijay Chavan,500000,238706,Mostly on time,777,Rice,13.8,Rain-fed,Red loamy,10.3,8.1,398.0,24.3,87.5,0.7,4.98
+FARM-1033,Sachin Rao,500000,359929,Always on time,739,Wheat,4.5,Rain-fed,Red loamy,14.1,14.3,887.9,33.6,48.7,0.44,1.14
+FARM-1034,Suresh Gaikwad,500000,213550,Always on time,586,Onion,12.0,Drip System,Alluvial,10.5,10.9,643.7,24.1,29.3,0.83,0.5
+FARM-1035,Mahesh Gaikwad,250000,126087,Mostly on time,673,Cotton,15.8,Drip System,Alluvial,13.8,11.1,707.8,24.7,58.5,0.52,3.68
+FARM-1036,Priya Deshmukh,250000,151558,Mostly on time,512,Cotton,10.7,Rain-fed,Alluvial,11.6,11.2,638.4,22.0,65.6,0.77,3.04
+FARM-1037,Vijay Joshi,300000,133656,Mostly on time,606,Rice,1.7,Rain-fed,Sandy loam,16.2,12.3,1060.3,28.2,47.1,0.84,0.5
+FARM-1038,Anita Joshi,100000,74376,Mostly on time,675,Sugarcane,1.7,Drip System,Red loamy,16.2,14.1,802.9,26.7,47.8,0.71,0.5
+FARM-1039,Sunita Joshi,150000,87276,Frequently delayed,601,Cotton,8.1,Sprinkler,Sandy loam,12.8,11.6,942.3,22.5,83.7,0.81,3.38
+FARM-1040,Pooja Kulkarni,150000,58669,Always on time,671,Onion,18.6,Canal,Red loamy,11.5,10.6,1034.1,23.4,56.1,0.76,4.86
+FARM-1041,Anita Kale,500000,332069,Always on time,648,Rice,5.7,Canal,Black cotton soil,11.6,12.0,829.4,33.1,69.9,0.6,1.38
+FARM-1042,Vikram Patil,300000,162891,Always on time,692,Wheat,13.2,Rain-fed,Sandy loam,16.1,15.3,584.8,27.1,46.0,0.84,2.42
+FARM-1043,Vijay Deshmukh,200000,109479,Always on time,616,Onion,5.6,Sprinkler,Red loamy,11.3,10.1,760.3,27.4,59.1,0.56,1.02
+FARM-1044,Ganesh Shinde,100000,51270,1 delayed payment,574,Rice,7.5,Drip System,Red loamy,10.1,10.0,666.4,27.4,55.0,0.71,1.5
+FARM-1045,Suresh Rao,300000,156917,Always on time,768,Onion,17.2,Rain-fed,Sandy loam,8.8,9.1,709.4,32.6,49.9,0.81,2.92
+FARM-1046,Rahul Pawar,100000,69748,Mostly on time,610,Cotton,15.0,Sprinkler,Sandy loam,12.7,9.6,783.0,22.8,77.3,0.61,4.47
+FARM-1047,Kavita Shinde,100000,26693,Always on time,702,Wheat,3.3,Sprinkler,Red loamy,12.8,13.4,775.9,25.4,39.2,0.57,0.5
+FARM-1048,Rahul Bhosale,100000,41733,Mostly on time,764,Rice,9.4,Sprinkler,Sandy loam,16.4,12.7,874.2,26.3,64.5,0.65,3.5
+FARM-1049,Anita Deshmukh,300000,74723,Mostly on time,663,Soybean,2.0,Drip System,Alluvial,10.2,10.1,900.3,20.1,54.7,0.85,0.5
+FARM-1050,Kavita Joshi,500000,344805,Always on time,581,Wheat,10.4,Drip System,Sandy loam,11.8,9.8,775.9,23.3,66.2,0.91,4.24
+FARM-1051,Suresh Gaikwad,150000,56549,Mostly on time,635,Soybean,13.8,Canal,Sandy loam,16.1,12.7,872.6,31.2,54.9,0.7,2.53
+FARM-1052,Vikram Shinde,150000,117499,Always on time,731,Onion,3.7,Canal,Sandy loam,16.2,14.3,701.1,30.0,73.0,0.76,1.25
+FARM-1053,Vikram Verma,500000,271138,Always on time,666,Sugarcane,6.8,Sprinkler,Red loamy,11.8,11.1,1036.7,30.7,45.9,0.9,1.98
+FARM-1054,Anita Kulkarni,100000,72048,Always on time,553,Wheat,8.9,Sprinkler,Alluvial,12.6,10.9,698.2,24.6,77.4,0.45,3.2
+FARM-1055,Vikram Jadhav,200000,167261,Always on time,697,Onion,18.5,Drip System,Black cotton soil,11.0,8.4,1015.5,25.1,59.6,0.53,3.79
+FARM-1056,Sachin Chavan,50000,37293,Always on time,711,Soybean,19.9,Canal,Black cotton soil,17.3,16.1,534.3,19.8,40.1,0.79,3.14
+FARM-1057,Vikram Kulkarni,300000,229063,Mostly on time,621,Cotton,2.3,Sprinkler,Alluvial,9.2,9.4,731.5,30.7,70.2,0.85,0.56
+FARM-1058,Priya Bhosale,50000,23259,Mostly on time,698,Cotton,15.6,Canal,Alluvial,17.3,15.0,740.4,31.4,57.0,0.87,4.39
+FARM-1059,Suresh Verma,500000,279309,Mostly on time,669,Sugarcane,8.4,Canal,Alluvial,14.8,12.1,850.2,31.3,34.4,0.63,1.41
+FARM-1060,Priya Kulkarni,200000,73005,Always on time,634,Wheat,8.8,Sprinkler,Red loamy,13.3,11.7,955.1,33.4,65.0,0.45,1.09
+FARM-1061,Kavita Chavan,300000,98242,Mostly on time,546,Wheat,15.5,Drip System,Black cotton soil,8.3,6.3,575.1,28.7,75.1,0.64,3.97
+FARM-1062,Sachin Joshi,500000,264290,Always on time,736,Wheat,18.5,Sprinkler,Alluvial,12.8,12.8,600.6,33.2,79.2,0.53,3.6
+FARM-1063,Sachin Bhosale,100000,58678,Always on time,710,Onion,19.1,Sprinkler,Red loamy,12.1,12.1,547.7,26.2,54.3,0.56,3.04
+FARM-1064,Mahesh Bhosale,150000,63078,1 delayed payment,696,Sugarcane,12.2,Canal,Black cotton soil,9.6,8.9,1037.6,19.9,62.2,0.82,3.12
+FARM-1065,Anita Bhosale,50000,28506,Always on time,773,Wheat,8.1,Sprinkler,Sandy loam,14.6,12.5,853.6,30.4,60.8,0.44,0.5
+FARM-1066,Ramesh Chavan,250000,194212,Mostly on time,725,Onion,16.1,Drip System,Red loamy,17.7,17.5,604.8,19.8,82.3,0.86,6.34
+FARM-1067,Sunita Chavan,250000,140467,Mostly on time,704,Cotton,6.1,Sprinkler,Black cotton soil,13.6,12.5,720.2,27.7,47.8,0.64,2.43
+FARM-1068,Ganesh Patil,200000,133705,Always on time,472,Soybean,11.9,Drip System,Red loamy,15.1,15.1,1012.7,30.8,53.0,0.73,2.06
+FARM-1069,Sachin Kulkarni,100000,72345,Always on time,745,Onion,8.1,Drip System,Black cotton soil,8.7,8.2,749.9,28.3,47.5,0.45,1.36
+FARM-1070,Ganesh Verma,50000,42133,Always on time,656,Cotton,13.6,Canal,Black cotton soil,12.2,12.0,739.3,36.1,38.3,0.59,1.88
+FARM-1071,Deepak Kale,100000,59207,1 delayed payment,674,Cotton,5.9,Rain-fed,Sandy loam,9.2,8.6,659.4,19.1,63.7,0.45,1.58
+FARM-1072,Ramesh Kulkarni,50000,36222,Always on time,675,Soybean,5.0,Rain-fed,Red loamy,14.1,12.3,615.5,26.7,84.0,0.93,2.27
+FARM-1073,Anil Kale,200000,165144,Always on time,711,Cotton,18.5,Canal,Alluvial,17.4,18.1,1013.0,27.1,57.0,0.84,4.29
+FARM-1074,Ramesh More,200000,162773,Always on time,739,Sugarcane,3.4,Sprinkler,Sandy loam,14.6,13.3,1101.3,21.6,46.8,0.65,0.65
+FARM-1075,Priya Gaikwad,250000,72925,Mostly on time,700,Soybean,10.9,Canal,Sandy loam,8.8,8.2,622.7,22.4,62.8,0.52,2.2
+FARM-1076,Sunita Gaikwad,100000,46415,Always on time,688,Cotton,5.6,Drip System,Black cotton soil,11.5,9.4,1052.9,23.6,68.8,0.91,1.83
+FARM-1077,Mahesh Joshi,300000,123178,Always on time,668,Rice,2.2,Rain-fed,Alluvial,13.5,12.7,712.3,22.6,57.7,0.59,0.5
+FARM-1078,Sunita Chavan,250000,64125,Mostly on time,381,Onion,2.2,Canal,Red loamy,12.0,11.1,896.1,26.6,81.1,0.49,0.67
+FARM-1079,Ganesh Joshi,100000,61160,1 delayed payment,626,Cotton,4.7,Sprinkler,Alluvial,16.3,13.1,1053.8,24.6,47.8,0.71,1.12
+FARM-1080,Suresh Patil,250000,169584,Always on time,574,Sugarcane,17.5,Canal,Alluvial,16.1,12.4,773.9,28.3,55.7,0.92,6.38
+FARM-1081,Sunita Jadhav,300000,225384,Always on time,746,Wheat,6.7,Rain-fed,Alluvial,14.1,13.1,741.0,29.6,64.4,0.4,0.99
+FARM-1082,Vikram Kulkarni,150000,41970,Always on time,699,Cotton,19.1,Canal,Alluvial,11.7,11.5,944.2,29.3,65.9,0.53,4.1
+FARM-1083,Priya Kale,150000,115453,Mostly on time,613,Wheat,12.3,Canal,Alluvial,10.6,9.6,600.2,25.4,60.7,0.92,4.2
+FARM-1084,Sachin Kulkarni,150000,92685,Always on time,621,Rice,9.6,Rain-fed,Black cotton soil,9.1,7.4,1006.5,28.1,40.8,0.49,1.41
+FARM-1085,Rahul More,150000,98634,Mostly on time,618,Cotton,12.2,Drip System,Black cotton soil,11.5,10.9,825.7,31.1,95.0,0.46,2.99
+FARM-1086,Anil Patil,500000,395952,Mostly on time,617,Soybean,11.1,Drip System,Sandy loam,12.1,9.4,696.0,28.8,56.5,0.71,2.82
+FARM-1087,Anil Sharma,50000,30304,Mostly on time,534,Wheat,15.5,Rain-fed,Black cotton soil,14.8,13.1,691.2,34.4,61.7,0.87,3.25
+FARM-1088,Anita Rao,500000,209156,Always on time,517,Rice,6.7,Canal,Sandy loam,14.6,11.7,551.0,30.9,69.3,0.66,1.29
+FARM-1089,Anil Patil,500000,368159,1 delayed payment,652,Soybean,8.0,Rain-fed,Sandy loam,8.7,7.0,703.5,33.9,50.5,0.95,2.24
+FARM-1090,Priya Gaikwad,500000,217994,Mostly on time,736,Soybean,18.0,Drip System,Red loamy,12.0,9.7,752.5,17.0,60.9,0.77,4.2
+FARM-1091,Sunita Verma,150000,33337,Mostly on time,606,Soybean,19.0,Sprinkler,Alluvial,9.8,8.5,609.0,27.4,49.8,0.44,2.32
+FARM-1092,Vikram Jadhav,300000,221977,Always on time,674,Soybean,18.0,Canal,Black cotton soil,9.6,7.3,791.8,25.7,66.2,0.95,7.57
+FARM-1093,Deepak Chavan,200000,84874,Frequently delayed,708,Cotton,9.3,Drip System,Red loamy,16.3,14.2,885.1,26.5,55.9,0.62,1.56
+FARM-1094,Anita Verma,200000,140598,Always on time,570,Onion,15.9,Canal,Black cotton soil,8.4,7.6,761.6,23.8,64.0,0.56,3.65
+FARM-1095,Kavita Gaikwad,50000,21789,Always on time,648,Cotton,10.3,Rain-fed,Sandy loam,12.2,10.9,919.3,28.6,44.3,0.71,2.06
+FARM-1096,Sachin Bhosale,150000,113954,Always on time,596,Cotton,10.7,Sprinkler,Black cotton soil,9.7,8.4,654.7,19.8,47.6,0.57,1.8
+FARM-1097,Anil Verma,150000,51402,Mostly on time,778,Rice,5.3,Rain-fed,Alluvial,16.8,16.8,980.6,28.6,39.5,0.45,0.52
+FARM-1098,Sunita Patil,150000,125018,Always on time,774,Rice,12.4,Sprinkler,Sandy loam,13.6,10.8,821.9,23.9,49.3,0.4,1.65
+FARM-1099,Vijay Bhosale,250000,176710,Always on time,570,Onion,4.9,Canal,Sandy loam,10.3,9.3,1078.1,25.0,21.4,0.65,0.5
+FARM-1100,Vijay Rao,100000,27425,Always on time,680,Rice,7.6,Canal,Red loamy,13.0,10.0,1234.6,28.8,55.4,0.86,1.79
+FARM-1101,Priya Jadhav,250000,141938,Always on time,735,Sugarcane,17.3,Rain-fed,Alluvial,15.3,11.8,715.4,27.3,52.0,0.71,4.42
+FARM-1102,Sunita Bhosale,100000,84048,Mostly on time,717,Onion,5.3,Sprinkler,Sandy loam,17.6,16.2,722.8,31.2,62.3,0.95,1.67
+FARM-1103,Anita More,150000,75928,Mostly on time,656,Rice,2.8,Sprinkler,Alluvial,10.2,9.4,755.7,23.1,60.7,0.56,1.33
+FARM-1104,Pooja Shinde,150000,47755,Always on time,754,Onion,2.8,Canal,Black cotton soil,16.9,17.1,907.2,26.7,78.9,0.55,1.79
+FARM-1105,Pooja Jadhav,250000,128776,Always on time,577,Cotton,18.9,Rain-fed,Alluvial,17.3,15.9,1038.7,30.6,95.0,0.49,3.74
+FARM-1106,Deepak Kale,250000,133274,Mostly on time,625,Cotton,10.9,Sprinkler,Sandy loam,17.2,17.9,682.5,28.4,77.1,0.49,2.83
+FARM-1107,Rahul Joshi,100000,68209,Always on time,579,Onion,9.1,Canal,Red loamy,14.4,11.0,868.6,28.7,53.2,0.56,3.32
+FARM-1108,Suresh Gaikwad,200000,130849,Always on time,712,Sugarcane,16.5,Drip System,Sandy loam,14.3,11.1,775.5,31.4,52.6,0.84,4.61
+FARM-1109,Pooja Rao,100000,46165,Frequently delayed,603,Sugarcane,17.0,Rain-fed,Alluvial,12.0,9.2,911.3,25.4,73.0,0.9,7.9
+FARM-1110,Mahesh Sharma,250000,85428,Mostly on time,636,Onion,7.6,Drip System,Alluvial,15.5,12.5,1071.7,24.5,34.7,0.94,1.4
+FARM-1111,Rahul Joshi,300000,185785,Always on time,699,Rice,14.3,Rain-fed,Sandy loam,13.3,12.1,756.7,29.3,55.3,0.53,2.99
+FARM-1112,Sachin Joshi,250000,118526,Mostly on time,705,Wheat,15.8,Canal,Alluvial,14.8,14.0,499.4,26.4,56.4,0.88,4.56
+FARM-1113,Sachin Shinde,300000,85793,Always on time,577,Sugarcane,13.6,Sprinkler,Black cotton soil,12.3,9.4,933.9,31.5,68.8,0.58,2.32
+FARM-1114,Vikram Rao,50000,39268,Mostly on time,734,Soybean,4.3,Sprinkler,Sandy loam,15.3,15.8,650.1,28.5,69.2,0.46,0.81
+FARM-1115,Deepak Gaikwad,250000,162323,Always on time,686,Cotton,17.7,Sprinkler,Red loamy,16.2,16.2,774.2,24.5,48.8,0.88,4.7
+FARM-1116,Sunita Joshi,50000,32203,Always on time,563,Onion,11.5,Rain-fed,Sandy loam,9.5,8.0,941.7,28.4,53.8,0.75,2.72
+FARM-1117,Mahesh Jadhav,200000,146935,Always on time,543,Soybean,6.7,Canal,Black cotton soil,16.3,12.6,853.5,23.4,66.7,0.49,1.12
+FARM-1118,Vikram Patil,100000,54428,1 delayed payment,648,Onion,9.4,Drip System,Black cotton soil,13.4,10.7,781.7,30.8,48.0,0.64,2.0
+FARM-1119,Ramesh Chavan,300000,218935,Mostly on time,718,Cotton,2.2,Canal,Black cotton soil,16.4,12.9,696.3,21.4,78.1,0.56,0.5
+FARM-1120,Deepak Rao,100000,52375,Always on time,720,Cotton,3.9,Drip System,Black cotton soil,12.3,9.7,300.0,31.9,69.1,0.81,0.5
+FARM-1121,Mahesh Shinde,50000,12183,Always on time,678,Sugarcane,15.7,Rain-fed,Black cotton soil,11.8,10.7,925.7,28.3,62.6,0.65,4.46
+FARM-1122,Pooja Chavan,300000,139023,Mostly on time,653,Sugarcane,1.5,Rain-fed,Red loamy,17.2,14.2,754.5,26.3,65.9,0.94,0.5
+FARM-1123,Anil Jadhav,100000,52335,Always on time,690,Soybean,9.2,Drip System,Alluvial,10.5,9.0,1072.4,30.1,53.0,0.43,0.5
+FARM-1124,Rahul Kulkarni,250000,167032,Always on time,581,Onion,11.2,Drip System,Black cotton soil,16.4,17.2,871.6,29.0,50.6,0.6,2.31
+FARM-1125,Deepak Chavan,150000,40391,Frequently delayed,784,Cotton,2.5,Drip System,Black cotton soil,12.8,12.2,702.6,32.3,53.6,0.67,0.5
+FARM-1126,Vikram Sharma,50000,14550,Always on time,783,Soybean,19.5,Canal,Sandy loam,13.1,13.6,992.0,32.3,67.5,0.68,4.29
+FARM-1127,Ramesh Kale,100000,37139,Mostly on time,684,Wheat,5.7,Drip System,Red loamy,11.1,8.8,1007.2,28.4,63.0,0.57,0.79
+FARM-1128,Kavita Joshi,50000,18661,Frequently delayed,665,Soybean,7.1,Rain-fed,Red loamy,13.7,11.8,760.6,23.5,53.7,0.8,3.21
+FARM-1129,Ganesh Verma,500000,337959,Always on time,617,Rice,7.1,Rain-fed,Alluvial,11.3,10.4,1014.9,24.8,71.2,0.88,2.0
+FARM-1130,Deepak Pawar,50000,18148,Always on time,692,Soybean,5.8,Sprinkler,Red loamy,8.4,6.5,700.0,26.7,57.4,0.92,3.5
+FARM-1131,Ganesh Chavan,300000,183454,Always on time,594,Rice,1.5,Drip System,Sandy loam,10.7,8.0,828.7,31.3,49.6,0.84,0.5
+FARM-1132,Vijay Patil,500000,260639,1 delayed payment,472,Rice,15.0,Canal,Sandy loam,8.1,7.7,902.9,25.2,63.8,0.87,6.03
+FARM-1133,Vikram Patil,300000,171792,1 delayed payment,432,Rice,19.4,Canal,Alluvial,17.8,16.8,941.3,25.5,44.8,0.7,3.82
+FARM-1134,Kavita Shinde,150000,111715,Mostly on time,586,Wheat,5.6,Canal,Sandy loam,17.7,15.5,911.9,34.4,34.7,0.85,0.5
+FARM-1135,Sachin Rao,500000,231423,Always on time,662,Soybean,13.8,Sprinkler,Black cotton soil,12.0,10.8,740.1,26.6,59.9,0.57,2.97
+FARM-1136,Sunita Deshmukh,250000,175273,Mostly on time,676,Soybean,15.2,Rain-fed,Black cotton soil,15.3,13.4,996.9,24.5,50.1,0.62,3.28
+FARM-1137,Anil Patil,50000,23716,1 delayed payment,611,Wheat,17.2,Canal,Sandy loam,11.5,8.7,777.6,30.1,56.2,0.57,2.87
+FARM-1138,Priya Patil,100000,43001,Mostly on time,661,Cotton,9.3,Rain-fed,Alluvial,14.7,12.5,697.6,26.8,45.5,0.66,2.07
+FARM-1139,Ganesh Patil,200000,164621,1 delayed payment,628,Sugarcane,7.1,Sprinkler,Red loamy,16.1,12.9,700.2,21.4,78.1,0.56,0.88
+FARM-1140,Deepak Patil,50000,15992,1 delayed payment,570,Soybean,7.5,Drip System,Alluvial,17.5,13.6,1149.2,31.2,50.1,0.93,1.58
+FARM-1141,Suresh Deshmukh,50000,12935,Mostly on time,645,Sugarcane,14.7,Drip System,Red loamy,12.0,12.4,666.4,24.0,53.5,0.57,3.43
+FARM-1142,Sachin Pawar,150000,105171,Mostly on time,715,Onion,16.6,Drip System,Sandy loam,15.8,14.7,1032.5,27.2,65.7,0.45,2.16
+FARM-1143,Sunita Sharma,250000,61090,Always on time,573,Onion,4.9,Canal,Sandy loam,10.7,10.4,595.6,26.7,39.4,0.69,1.14
+FARM-1144,Ramesh Patil,200000,148820,Always on time,573,Wheat,8.4,Drip System,Black cotton soil,17.9,15.1,887.8,27.9,38.2,0.43,0.94
+FARM-1145,Anil Rao,500000,242087,Mostly on time,564,Onion,18.2,Canal,Red loamy,8.3,7.2,853.5,18.2,65.7,0.46,4.03
+FARM-1146,Suresh Sharma,500000,397541,Always on time,495,Onion,16.4,Sprinkler,Alluvial,14.0,11.5,1091.8,25.7,53.3,0.52,2.09
+FARM-1147,Sachin Gaikwad,500000,334498,1 delayed payment,611,Cotton,19.7,Sprinkler,Sandy loam,14.6,11.4,682.2,31.5,46.5,0.66,4.75
+FARM-1148,Rahul Jadhav,300000,179028,Frequently delayed,707,Cotton,15.5,Canal,Alluvial,14.9,12.0,632.5,32.1,69.1,0.64,2.29
+FARM-1149,Vijay Jadhav,300000,245114,Mostly on time,663,Cotton,8.8,Rain-fed,Black cotton soil,9.2,9.1,779.0,23.0,47.8,0.84,2.42
+FARM-1150,Deepak Kulkarni,100000,45782,Always on time,636,Onion,12.4,Drip System,Red loamy,17.4,16.6,1099.7,30.7,55.9,0.81,1.7
+FARM-1151,Deepak Patil,200000,164031,Always on time,660,Wheat,13.7,Drip System,Red loamy,9.8,9.0,640.9,24.0,46.6,0.63,3.53
+FARM-1152,Anita Pawar,500000,143875,Always on time,610,Rice,3.0,Drip System,Sandy loam,14.2,12.7,334.1,25.5,64.6,0.58,0.5
+FARM-1153,Ganesh Sharma,300000,154332,Mostly on time,494,Rice,11.6,Canal,Red loamy,10.2,10.5,810.8,25.7,80.0,0.57,4.0
+FARM-1154,Vijay Deshmukh,100000,37544,Mostly on time,712,Sugarcane,14.6,Sprinkler,Sandy loam,11.1,8.6,970.9,27.4,32.1,0.83,2.59
+FARM-1155,Rahul Pawar,250000,137724,1 delayed payment,735,Rice,4.6,Drip System,Black cotton soil,13.5,11.3,617.5,31.0,61.7,0.43,0.64
+FARM-1156,Deepak Verma,100000,30530,Always on time,591,Rice,15.9,Sprinkler,Red loamy,12.2,10.4,952.6,28.1,72.8,0.41,2.59
+FARM-1157,Ramesh Chavan,300000,224098,1 delayed payment,637,Cotton,12.3,Drip System,Sandy loam,9.6,9.5,613.5,26.5,53.7,0.84,2.8
+FARM-1158,Sachin More,150000,112524,1 delayed payment,631,Cotton,19.1,Drip System,Alluvial,9.7,10.2,773.6,30.9,43.0,0.66,3.48
+FARM-1159,Rahul Bhosale,150000,123135,Always on time,678,Onion,2.3,Canal,Sandy loam,12.2,10.0,935.5,23.8,66.3,0.47,0.67
+FARM-1160,Anil Shinde,500000,150268,1 delayed payment,785,Sugarcane,6.4,Rain-fed,Red loamy,15.6,15.8,586.3,26.7,75.0,0.53,1.86
+FARM-1161,Sachin More,150000,90774,Always on time,742,Soybean,12.6,Canal,Black cotton soil,17.0,17.0,832.7,31.0,73.4,0.91,6.17
+FARM-1162,Vijay Kale,500000,254127,Always on time,619,Sugarcane,7.0,Drip System,Red loamy,8.8,7.2,1018.7,29.1,65.5,0.87,1.06
+FARM-1163,Kavita Kale,500000,211924,Mostly on time,693,Sugarcane,14.7,Drip System,Red loamy,11.9,10.4,885.3,25.1,61.5,0.79,5.17
+FARM-1164,Anita Kale,300000,128550,Always on time,750,Wheat,15.5,Rain-fed,Sandy loam,9.0,7.9,670.3,20.9,46.5,0.67,3.5
+FARM-1165,Vijay Jadhav,150000,70247,Mostly on time,682,Onion,3.4,Sprinkler,Alluvial,8.2,8.6,1073.4,28.2,73.0,0.69,0.83
+FARM-1166,Vijay Chavan,500000,329100,Mostly on time,649,Wheat,11.0,Sprinkler,Red loamy,14.6,11.7,918.5,20.7,72.1,0.94,3.34
+FARM-1167,Ramesh Kulkarni,200000,117777,Mostly on time,685,Sugarcane,10.9,Drip System,Alluvial,14.0,13.9,465.1,26.1,42.9,0.93,1.58
+FARM-1168,Sunita Deshmukh,250000,124698,Always on time,593,Sugarcane,8.3,Sprinkler,Sandy loam,9.6,8.2,955.6,31.7,65.5,0.52,1.65
+FARM-1169,Ganesh Patil,100000,24935,Mostly on time,605,Sugarcane,18.8,Drip System,Alluvial,10.3,10.0,697.2,29.4,69.8,0.85,6.98
+FARM-1170,Deepak Joshi,100000,25054,Mostly on time,564,Rice,16.8,Rain-fed,Sandy loam,8.2,7.2,835.4,18.9,73.2,0.51,4.19
+FARM-1171,Mahesh Chavan,300000,60456,Mostly on time,674,Wheat,14.4,Rain-fed,Black cotton soil,16.3,15.1,981.4,27.8,58.9,0.52,2.23
+FARM-1172,Suresh Jadhav,150000,124350,Always on time,639,Sugarcane,14.7,Drip System,Alluvial,17.7,17.7,701.1,25.7,47.1,0.77,3.88
+FARM-1173,Anita Rao,150000,30512,Always on time,584,Cotton,10.0,Rain-fed,Alluvial,9.4,9.3,503.8,21.9,52.5,0.62,1.17
+FARM-1174,Kavita Kale,500000,133505,Mostly on time,636,Onion,18.5,Canal,Black cotton soil,10.3,10.4,1071.0,28.3,44.9,0.91,4.05
+FARM-1175,Sunita Joshi,50000,20224,Always on time,687,Onion,14.4,Canal,Alluvial,16.7,12.8,1009.6,25.0,59.2,0.45,2.45
+FARM-1176,Kavita Chavan,500000,362414,Mostly on time,803,Cotton,15.0,Rain-fed,Black cotton soil,17.3,16.6,784.3,25.1,56.3,0.68,4.1
+FARM-1177,Vijay Joshi,250000,206341,Mostly on time,730,Onion,17.4,Drip System,Red loamy,12.2,9.7,953.6,27.5,92.2,0.91,9.84
+FARM-1178,Ramesh Deshmukh,200000,142701,Mostly on time,467,Rice,6.6,Drip System,Sandy loam,8.5,7.4,733.5,24.5,73.4,0.9,2.35
+FARM-1179,Ramesh Rao,100000,64886,Mostly on time,669,Rice,16.4,Rain-fed,Black cotton soil,8.4,7.7,817.5,27.4,74.5,0.49,4.26
+FARM-1180,Sachin Sharma,500000,269422,Frequently delayed,764,Soybean,5.1,Sprinkler,Alluvial,13.7,11.9,774.0,24.6,67.1,0.6,1.16
+FARM-1181,Priya More,50000,12817,1 delayed payment,542,Soybean,7.9,Canal,Black cotton soil,11.9,10.8,740.8,24.8,54.5,0.74,3.3
+FARM-1182,Sunita Chavan,50000,41140,1 delayed payment,694,Soybean,7.7,Sprinkler,Alluvial,8.3,8.7,864.7,31.0,55.9,0.49,1.56
+FARM-1183,Mahesh Kale,500000,346477,1 delayed payment,631,Onion,19.6,Drip System,Red loamy,13.8,10.9,582.5,31.4,57.2,0.93,4.82
+FARM-1184,Anil Kale,300000,184595,Always on time,742,Rice,17.3,Drip System,Black cotton soil,8.1,7.7,754.7,20.2,62.8,0.9,6.13
+FARM-1185,Vijay Kulkarni,100000,69337,Always on time,682,Rice,14.5,Sprinkler,Red loamy,15.9,13.8,856.6,30.0,65.8,0.49,3.87
+FARM-1186,Rahul Kulkarni,300000,201200,Mostly on time,579,Rice,15.0,Rain-fed,Sandy loam,11.1,8.8,1130.9,32.6,60.0,0.47,1.22
+FARM-1187,Ramesh Kulkarni,200000,122840,Always on time,633,Cotton,11.9,Sprinkler,Alluvial,8.4,6.7,589.8,33.2,55.6,0.45,0.5
+FARM-1188,Vijay More,50000,41868,Always on time,638,Rice,19.0,Sprinkler,Alluvial,13.9,14.4,893.7,29.1,51.1,0.9,5.62
+FARM-1189,Ramesh Kulkarni,50000,39359,Always on time,640,Cotton,10.7,Canal,Red loamy,12.0,12.2,913.4,22.8,39.1,0.51,1.56
+FARM-1190,Vijay Pawar,250000,155083,Mostly on time,739,Soybean,8.5,Canal,Sandy loam,17.7,18.1,462.2,29.5,79.3,0.63,2.24
+FARM-1191,Ganesh Shinde,200000,130112,Mostly on time,582,Soybean,4.5,Sprinkler,Black cotton soil,13.4,14.0,873.9,23.5,93.1,0.65,2.25
+FARM-1192,Vikram Kale,50000,11676,Mostly on time,730,Onion,16.0,Sprinkler,Black cotton soil,10.8,8.8,958.5,25.6,78.0,0.73,6.89
+FARM-1193,Vikram Chavan,200000,127089,Mostly on time,625,Soybean,15.1,Drip System,Alluvial,15.1,12.9,906.0,28.5,41.1,0.44,0.86
+FARM-1194,Anil Chavan,100000,22870,1 delayed payment,667,Onion,8.6,Canal,Red loamy,10.7,10.2,784.9,23.8,71.8,0.52,1.83
+FARM-1195,Pooja Deshmukh,150000,87355,Always on time,655,Sugarcane,2.0,Canal,Red loamy,17.0,15.2,860.0,22.4,75.4,0.91,1.27
+FARM-1196,Vikram Deshmukh,50000,42478,1 delayed payment,648,Sugarcane,17.0,Drip System,Black cotton soil,11.7,10.2,830.6,28.9,53.9,0.9,5.02
+FARM-1197,Suresh Pawar,250000,140318,Always on time,648,Wheat,1.7,Rain-fed,Sandy loam,13.5,11.6,495.9,34.5,67.3,0.83,0.5
+FARM-1198,Anil Bhosale,100000,50758,Frequently delayed,766,Onion,14.5,Canal,Sandy loam,8.5,7.9,834.8,32.0,53.2,0.41,2.81
+FARM-1199,Mahesh Shinde,500000,201677,Mostly on time,717,Wheat,19.4,Canal,Black cotton soil,12.3,11.3,733.9,29.8,82.9,0.58,5.04
+FARM-1200,Ramesh Shinde,200000,55667,Always on time,620,Wheat,9.6,Rain-fed,Black cotton soil,16.3,13.0,673.1,30.9,65.5,0.75,2.47
+FARM-1201,Ramesh Rao,500000,337582,Always on time,776,Sugarcane,5.8,Canal,Red loamy,16.1,14.4,1247.3,29.6,46.2,0.55,0.52
+FARM-1202,Priya Shinde,300000,97556,Always on time,671,Onion,14.5,Canal,Sandy loam,10.2,9.3,1025.5,28.8,70.0,0.9,5.6
+FARM-1203,Ganesh Kulkarni,100000,27493,Always on time,678,Sugarcane,16.6,Rain-fed,Black cotton soil,10.3,9.5,593.0,30.6,75.9,0.75,3.94
+FARM-1204,Sunita Kale,500000,237072,Always on time,583,Wheat,11.6,Rain-fed,Black cotton soil,16.2,13.2,862.4,21.5,63.0,0.44,2.34
+FARM-1205,Ramesh Patil,50000,35848,Mostly on time,610,Onion,19.4,Sprinkler,Alluvial,17.3,16.8,1062.4,27.8,67.2,0.9,5.83
+FARM-1206,Sachin More,200000,136858,Mostly on time,594,Wheat,2.5,Drip System,Black cotton soil,9.0,6.8,530.7,26.7,59.0,0.93,1.07
+FARM-1207,Anil Pawar,150000,35351,Mostly on time,656,Rice,10.8,Drip System,Black cotton soil,12.5,10.7,813.9,27.3,43.0,0.44,1.03
+FARM-1208,Sunita Pawar,100000,49584,1 delayed payment,701,Onion,14.8,Rain-fed,Sandy loam,11.4,11.2,822.3,25.2,57.7,0.69,5.37
+FARM-1209,Vikram Rao,50000,26979,Mostly on time,679,Onion,17.5,Rain-fed,Red loamy,16.7,15.4,570.6,29.1,67.8,0.57,3.15
+FARM-1210,Rahul Pawar,250000,154738,Mostly on time,777,Wheat,4.8,Canal,Sandy loam,8.8,7.3,868.3,23.7,58.1,0.62,0.5
+FARM-1211,Pooja Kale,300000,186782,Always on time,578,Rice,16.3,Sprinkler,Red loamy,10.1,9.7,1000.9,24.9,72.0,0.5,3.34
+FARM-1212,Rahul Kulkarni,200000,87410,Mostly on time,659,Cotton,11.7,Sprinkler,Alluvial,15.5,14.3,1071.4,24.4,54.1,0.72,2.47
+FARM-1213,Deepak More,100000,56444,Always on time,547,Sugarcane,8.8,Rain-fed,Black cotton soil,8.5,8.4,755.1,30.5,55.1,0.93,3.36
+FARM-1214,Suresh Sharma,100000,51269,Frequently delayed,576,Wheat,3.9,Canal,Alluvial,12.9,12.5,1250.3,27.0,72.5,0.68,0.5
+FARM-1215,Vikram Patil,150000,116287,1 delayed payment,751,Onion,17.5,Canal,Red loamy,12.4,11.6,429.6,25.2,63.3,0.45,1.88
+FARM-1216,Sachin Verma,150000,81700,Mostly on time,612,Sugarcane,4.4,Drip System,Sandy loam,11.3,10.1,864.1,25.5,53.8,0.74,1.77
+FARM-1217,Ramesh Sharma,250000,121667,Always on time,585,Sugarcane,7.2,Drip System,Sandy loam,11.9,9.4,545.8,27.0,75.5,0.59,1.1
+FARM-1218,Sachin Bhosale,300000,138874,1 delayed payment,479,Sugarcane,6.9,Canal,Alluvial,13.3,11.0,816.2,33.5,49.7,0.87,1.59
+FARM-1219,Anil Shinde,250000,143019,Mostly on time,584,Cotton,17.6,Drip System,Red loamy,9.6,8.4,706.1,22.1,49.1,0.64,3.54
+FARM-1220,Anil Patil,50000,36129,Always on time,633,Soybean,13.9,Rain-fed,Alluvial,13.7,12.7,891.2,29.7,20.0,0.51,0.98
+FARM-1221,Ramesh Joshi,50000,27498,Always on time,541,Wheat,16.2,Canal,Alluvial,16.1,14.6,777.2,28.9,51.7,0.51,2.53
+FARM-1222,Sachin Rao,250000,157518,Mostly on time,628,Soybean,6.1,Drip System,Black cotton soil,15.6,13.0,651.3,23.5,79.6,0.82,2.11
+FARM-1223,Pooja Rao,300000,203881,Always on time,751,Soybean,13.1,Sprinkler,Alluvial,9.5,7.1,663.1,32.9,28.9,0.55,1.23
+FARM-1224,Priya Pawar,250000,134527,1 delayed payment,593,Soybean,12.1,Canal,Black cotton soil,9.5,8.5,1147.8,29.2,45.7,0.82,1.59
+FARM-1225,Anil Joshi,300000,143229,Always on time,574,Sugarcane,16.9,Canal,Black cotton soil,10.7,8.9,879.8,25.0,66.6,0.51,3.54
+FARM-1226,Mahesh Sharma,300000,230949,Always on time,560,Rice,18.3,Sprinkler,Sandy loam,11.6,11.3,493.6,19.6,26.3,0.58,1.88
+FARM-1227,Ganesh Bhosale,500000,235689,1 delayed payment,558,Sugarcane,1.7,Rain-fed,Black cotton soil,12.1,9.2,899.1,27.9,52.3,0.66,0.63
+FARM-1228,Ramesh Rao,200000,100052,Always on time,692,Sugarcane,14.0,Sprinkler,Black cotton soil,14.8,13.7,765.0,26.8,77.1,0.92,8.09
+FARM-1229,Priya Verma,300000,253116,Mostly on time,653,Onion,2.5,Canal,Sandy loam,8.6,8.9,800.8,22.9,90.6,0.91,1.92
+FARM-1230,Anil Joshi,150000,30023,Always on time,726,Onion,11.7,Rain-fed,Alluvial,8.3,6.7,947.6,22.8,64.4,0.51,1.79
+FARM-1231,Ramesh Shinde,300000,96167,Always on time,811,Soybean,6.8,Drip System,Red loamy,11.9,10.6,1013.0,30.5,46.1,0.6,1.02
+FARM-1232,Anita Bhosale,300000,134872,Mostly on time,503,Sugarcane,7.2,Drip System,Red loamy,15.0,11.7,645.4,19.2,45.6,0.48,0.5
+FARM-1233,Priya Jadhav,300000,241855,Mostly on time,680,Soybean,8.0,Drip System,Red loamy,9.9,9.3,794.6,28.3,62.2,0.68,1.57
+FARM-1234,Ramesh Kale,500000,122759,Mostly on time,560,Onion,13.0,Canal,Alluvial,14.4,13.2,701.7,26.3,64.2,0.65,3.53
+FARM-1235,Suresh Chavan,500000,103082,Mostly on time,713,Rice,7.7,Sprinkler,Black cotton soil,10.6,9.2,907.4,29.0,87.9,0.9,4.26
+FARM-1236,Kavita Verma,50000,11712,Mostly on time,628,Wheat,15.1,Rain-fed,Red loamy,16.9,15.3,758.2,25.8,74.6,0.91,7.78
+FARM-1237,Rahul Gaikwad,500000,128776,Always on time,652,Soybean,9.0,Drip System,Alluvial,17.0,17.3,805.3,28.2,61.3,0.61,1.7
+FARM-1238,Anil Kulkarni,150000,33665,Always on time,547,Rice,2.8,Rain-fed,Black cotton soil,11.0,8.9,751.4,24.0,55.0,0.67,0.52
+FARM-1239,Vikram Kulkarni,150000,76778,1 delayed payment,615,Wheat,16.0,Canal,Sandy loam,10.3,7.8,780.9,26.8,95.0,0.89,9.91
+FARM-1240,Suresh Verma,500000,288746,Mostly on time,657,Cotton,6.8,Drip System,Red loamy,12.1,12.2,1106.8,29.0,69.4,0.84,1.06
+FARM-1241,Rahul Jadhav,250000,94149,Mostly on time,758,Soybean,9.5,Canal,Black cotton soil,10.4,9.6,1230.3,27.6,50.0,0.4,1.15
+FARM-1242,Suresh Verma,200000,91777,Always on time,586,Soybean,14.2,Sprinkler,Red loamy,14.7,15.0,867.9,28.5,56.6,0.58,2.96
+FARM-1243,Deepak Gaikwad,500000,129802,Always on time,605,Cotton,7.7,Canal,Red loamy,16.3,15.1,782.0,23.3,46.8,0.63,0.99
+FARM-1244,Suresh Gaikwad,300000,125592,Mostly on time,725,Cotton,2.5,Canal,Red loamy,14.7,14.6,512.8,24.6,23.9,0.53,0.5
+FARM-1245,Ramesh Kulkarni,100000,53963,1 delayed payment,581,Soybean,8.4,Sprinkler,Black cotton soil,16.2,14.2,663.1,24.7,64.7,0.51,2.45
+FARM-1246,Ramesh Chavan,200000,135195,Mostly on time,741,Cotton,19.0,Rain-fed,Alluvial,12.0,11.7,777.2,25.9,86.7,0.42,5.06
+FARM-1247,Deepak Pawar,200000,40435,1 delayed payment,649,Sugarcane,13.4,Sprinkler,Black cotton soil,9.6,9.8,671.3,32.4,35.5,0.75,2.47
+FARM-1248,Sunita Bhosale,150000,75562,Mostly on time,674,Wheat,13.9,Sprinkler,Red loamy,15.4,14.2,690.2,25.6,60.8,0.54,3.97
+FARM-1249,Kavita Jadhav,200000,78610,Always on time,679,Wheat,13.2,Canal,Black cotton soil,11.6,9.3,1083.6,22.4,49.4,0.43,1.98
+FARM-1250,Kavita Kale,500000,377167,Always on time,600,Wheat,5.2,Rain-fed,Sandy loam,14.7,12.2,805.2,29.2,67.8,0.53,1.01
+FARM-1251,Suresh Chavan,300000,199532,Always on time,681,Sugarcane,9.2,Drip System,Alluvial,10.7,8.7,821.3,32.4,57.4,0.84,1.37
+FARM-1252,Ganesh Bhosale,300000,174876,Always on time,588,Cotton,15.4,Sprinkler,Black cotton soil,8.8,7.3,678.6,22.0,39.6,0.87,3.51
+FARM-1253,Sachin Gaikwad,50000,19011,1 delayed payment,609,Rice,3.4,Rain-fed,Sandy loam,17.9,15.1,1012.0,34.9,45.3,0.67,1.48
+FARM-1254,Sunita Chavan,300000,237516,Always on time,694,Cotton,6.6,Sprinkler,Alluvial,9.6,8.8,761.7,28.7,47.5,0.63,1.32
+FARM-1255,Vijay Bhosale,300000,68794,Mostly on time,673,Soybean,6.6,Sprinkler,Sandy loam,17.9,16.6,706.2,31.1,80.2,0.94,1.87
+FARM-1256,Vijay Patil,150000,40673,Always on time,644,Onion,9.5,Sprinkler,Alluvial,17.8,15.6,515.5,32.9,79.4,0.51,1.29
+FARM-1257,Ganesh Rao,300000,136367,Always on time,549,Wheat,19.6,Sprinkler,Black cotton soil,15.9,14.9,789.0,30.9,55.3,0.52,3.49
+FARM-1258,Vikram Joshi,50000,14044,Always on time,569,Cotton,2.7,Canal,Sandy loam,14.6,11.3,700.6,26.6,78.4,0.56,0.5
+FARM-1259,Anil Jadhav,100000,82167,Always on time,672,Rice,11.1,Rain-fed,Red loamy,13.8,10.7,1103.2,31.9,57.4,0.5,0.5
+FARM-1260,Anita Joshi,500000,359346,Mostly on time,708,Soybean,4.8,Rain-fed,Sandy loam,16.7,13.4,1131.9,28.0,55.1,0.61,0.73
+FARM-1261,Suresh Deshmukh,150000,55250,Always on time,561,Sugarcane,19.5,Rain-fed,Alluvial,10.9,9.9,577.6,31.4,60.9,0.9,4.84
+FARM-1262,Sunita Verma,100000,58256,Mostly on time,582,Sugarcane,3.6,Sprinkler,Black cotton soil,12.7,10.3,598.0,31.8,64.3,0.74,1.73
+FARM-1263,Rahul Kale,150000,125777,Always on time,660,Rice,9.0,Canal,Alluvial,14.2,11.9,750.3,22.6,51.7,0.63,2.1
+FARM-1264,Mahesh Gaikwad,250000,193682,Always on time,659,Soybean,15.2,Sprinkler,Sandy loam,12.1,10.5,653.1,30.2,60.3,0.91,4.95
+FARM-1265,Anita Rao,200000,118103,Always on time,520,Wheat,14.5,Sprinkler,Sandy loam,12.3,12.2,839.1,26.3,71.8,0.43,3.24
+FARM-1266,Pooja Pawar,250000,196855,Mostly on time,662,Cotton,9.3,Rain-fed,Red loamy,11.3,8.5,741.2,27.6,61.9,0.52,2.11
+FARM-1267,Kavita Gaikwad,300000,252891,Mostly on time,602,Soybean,7.9,Sprinkler,Black cotton soil,13.6,12.8,850.5,27.5,60.6,0.71,1.54
+FARM-1268,Rahul Patil,100000,68317,Always on time,781,Sugarcane,8.9,Drip System,Black cotton soil,16.5,15.7,982.9,27.3,67.4,0.74,2.16
+FARM-1269,Vijay Gaikwad,300000,72672,Always on time,669,Rice,6.4,Sprinkler,Sandy loam,10.0,9.9,608.4,33.1,70.0,0.42,1.43
+FARM-1270,Rahul Verma,200000,92205,Mostly on time,683,Rice,5.3,Drip System,Black cotton soil,17.3,17.8,979.1,21.5,59.1,0.62,1.23
+FARM-1271,Rahul More,150000,111688,Always on time,685,Cotton,10.4,Sprinkler,Red loamy,14.9,11.3,668.8,20.1,52.9,0.76,2.23
+FARM-1272,Sachin Sharma,200000,69973,Always on time,552,Rice,6.5,Canal,Alluvial,16.2,12.9,1186.7,19.3,62.8,0.78,1.51
+FARM-1273,Ramesh Kulkarni,50000,36995,1 delayed payment,805,Rice,6.8,Canal,Black cotton soil,13.6,13.8,1091.8,31.3,36.1,0.75,1.08
+FARM-1274,Priya Joshi,200000,55644,Mostly on time,520,Soybean,13.6,Rain-fed,Sandy loam,15.8,14.0,779.6,23.9,56.8,0.58,4.38
+FARM-1275,Sachin Joshi,50000,11525,Always on time,713,Wheat,19.4,Sprinkler,Alluvial,8.2,7.5,626.6,27.5,22.9,0.45,1.29
+FARM-1276,Priya Jadhav,200000,89931,1 delayed payment,699,Cotton,12.7,Drip System,Alluvial,16.2,15.4,592.1,26.5,34.9,0.63,1.15
+FARM-1277,Vijay Pawar,500000,111937,Mostly on time,611,Soybean,2.9,Drip System,Red loamy,8.4,8.0,957.3,23.5,32.6,0.47,0.5
+FARM-1278,Pooja Shinde,50000,41111,Always on time,703,Wheat,2.9,Sprinkler,Sandy loam,16.9,17.4,794.5,30.4,75.7,0.92,1.62
+FARM-1279,Vikram Verma,100000,73703,Mostly on time,624,Soybean,19.1,Drip System,Black cotton soil,17.9,18.8,966.8,26.5,60.2,0.66,5.31
+FARM-1280,Anil Jadhav,300000,216150,Mostly on time,595,Onion,7.0,Canal,Sandy loam,10.9,10.5,1196.8,26.0,41.1,0.57,0.5
+FARM-1281,Ganesh Shinde,300000,182806,Always on time,687,Soybean,3.2,Drip System,Alluvial,10.1,8.4,661.3,27.9,67.4,0.82,1.23
+FARM-1282,Pooja Deshmukh,250000,85152,Always on time,569,Rice,12.6,Rain-fed,Sandy loam,15.7,15.9,578.6,29.9,74.8,0.67,2.85
+FARM-1283,Sachin Gaikwad,300000,161060,Always on time,632,Wheat,13.0,Canal,Black cotton soil,10.5,8.0,834.7,23.2,67.6,0.57,3.35
+FARM-1284,Vikram Kale,150000,88234,Mostly on time,602,Cotton,13.5,Canal,Black cotton soil,16.7,13.7,1006.1,30.5,57.2,0.85,3.83
+FARM-1285,Ramesh Kulkarni,500000,270635,Always on time,623,Cotton,6.4,Canal,Red loamy,9.0,9.2,630.7,32.8,63.5,0.88,2.13
+FARM-1286,Anita Kale,200000,73830,1 delayed payment,684,Wheat,1.8,Sprinkler,Black cotton soil,9.3,7.7,806.2,21.3,73.5,0.77,0.5
+FARM-1287,Sachin Gaikwad,250000,133727,Mostly on time,602,Rice,19.4,Sprinkler,Black cotton soil,17.8,14.5,1046.6,28.1,53.0,0.43,2.31
+FARM-1288,Sunita Gaikwad,150000,77890,Always on time,634,Sugarcane,6.1,Canal,Sandy loam,14.7,11.6,506.1,25.8,60.4,0.71,1.17
+FARM-1289,Priya Gaikwad,150000,127142,Mostly on time,609,Soybean,14.0,Sprinkler,Sandy loam,16.5,16.6,842.4,29.8,56.1,0.82,5.59
+FARM-1290,Priya Rao,50000,39166,Always on time,765,Rice,14.6,Drip System,Alluvial,11.2,10.1,702.8,22.1,35.8,0.48,1.78
+FARM-1291,Sunita Verma,300000,150359,Mostly on time,677,Onion,12.8,Sprinkler,Red loamy,14.8,14.1,822.3,33.5,73.7,0.53,2.38
+FARM-1292,Mahesh Joshi,100000,60490,Mostly on time,667,Wheat,7.3,Sprinkler,Sandy loam,13.9,11.4,927.8,20.6,90.9,0.89,4.17
+FARM-1293,Priya Patil,100000,68611,Always on time,704,Soybean,6.5,Canal,Black cotton soil,14.0,13.7,839.7,26.0,46.9,0.41,1.61
+FARM-1294,Kavita Gaikwad,250000,55665,Always on time,602,Cotton,12.6,Rain-fed,Alluvial,14.8,14.5,618.2,28.7,74.4,0.81,5.25
+FARM-1295,Ramesh Verma,500000,390849,Always on time,718,Sugarcane,17.5,Rain-fed,Sandy loam,13.8,11.6,709.8,24.3,47.4,0.66,4.93
+FARM-1296,Suresh Rao,100000,75908,Always on time,677,Onion,19.0,Rain-fed,Red loamy,12.3,10.7,1056.8,23.6,62.0,0.65,4.7
+FARM-1297,Rahul Chavan,200000,99466,Always on time,525,Cotton,3.5,Drip System,Red loamy,10.8,8.8,859.2,27.9,82.6,0.4,0.61
+FARM-1298,Ganesh Bhosale,100000,45426,Always on time,535,Wheat,4.4,Sprinkler,Alluvial,15.7,16.4,951.3,27.3,52.2,0.85,1.12
+FARM-1299,Priya Patil,250000,94355,Frequently delayed,604,Soybean,19.0,Rain-fed,Alluvial,10.3,9.7,845.1,27.0,59.8,0.6,4.71
+FARM-1300,Pooja Jadhav,100000,50983,Always on time,544,Wheat,15.1,Canal,Alluvial,14.9,15.4,945.6,30.4,33.0,0.7,1.75
+FARM-1301,Anita Sharma,200000,45768,Always on time,630,Soybean,17.8,Rain-fed,Alluvial,10.3,8.7,728.7,25.4,50.0,0.77,5.64
+FARM-1302,Rahul Bhosale,50000,37696,Mostly on time,568,Rice,5.2,Rain-fed,Alluvial,14.3,14.1,661.8,28.3,31.4,0.79,0.79
+FARM-1303,Sunita Kale,500000,111512,Always on time,642,Sugarcane,12.4,Sprinkler,Black cotton soil,15.5,15.2,937.5,25.0,66.4,0.93,5.77
+FARM-1304,Sachin Gaikwad,250000,103470,Frequently delayed,762,Rice,14.5,Sprinkler,Black cotton soil,10.2,9.8,1002.9,23.6,72.5,0.69,4.75
+FARM-1305,Anil Sharma,50000,40276,Mostly on time,646,Rice,14.1,Sprinkler,Sandy loam,8.6,8.9,635.4,25.9,56.7,0.62,2.67
+FARM-1306,Rahul Chavan,50000,33894,Mostly on time,625,Wheat,9.1,Drip System,Red loamy,9.3,8.1,696.3,25.0,64.3,0.92,3.0
+FARM-1307,Pooja Rao,50000,19145,Always on time,681,Sugarcane,1.8,Drip System,Black cotton soil,14.1,11.1,770.6,25.2,55.1,0.75,0.5
+FARM-1308,Sachin Sharma,150000,54633,Always on time,594,Soybean,12.3,Rain-fed,Black cotton soil,16.5,15.7,1091.6,31.7,71.1,0.56,1.95
+FARM-1309,Anita Patil,500000,101651,Always on time,717,Soybean,6.2,Sprinkler,Black cotton soil,8.4,8.1,901.4,26.0,61.9,0.47,1.32
+FARM-1310,Vikram Rao,300000,195664,1 delayed payment,689,Onion,9.8,Rain-fed,Sandy loam,15.3,14.1,561.7,24.3,30.2,0.86,1.19
+FARM-1311,Vikram Shinde,500000,115854,Always on time,653,Cotton,19.2,Canal,Alluvial,11.4,9.3,783.3,27.1,74.1,0.6,6.59
+FARM-1312,Priya Joshi,150000,81928,Always on time,662,Onion,8.9,Canal,Sandy loam,12.8,11.5,755.7,27.4,54.2,0.76,2.31
+FARM-1313,Kavita Gaikwad,300000,247613,Frequently delayed,813,Onion,17.0,Sprinkler,Red loamy,17.3,14.6,588.8,22.3,40.9,0.66,2.76
+FARM-1314,Priya Jadhav,500000,135577,Always on time,725,Soybean,5.0,Sprinkler,Red loamy,11.3,9.9,781.1,25.8,53.4,0.51,1.1
+FARM-1315,Vijay Patil,50000,39070,Always on time,825,Wheat,13.9,Canal,Red loamy,12.7,12.0,747.8,25.6,31.5,0.73,3.24
+FARM-1316,Vikram Rao,250000,211114,Always on time,692,Rice,19.6,Sprinkler,Red loamy,8.1,7.9,734.9,26.3,41.3,0.43,2.0
+FARM-1317,Priya Jadhav,300000,71995,Frequently delayed,532,Rice,3.4,Drip System,Black cotton soil,8.8,7.2,726.7,29.9,62.1,0.63,1.93
+FARM-1318,Kavita Gaikwad,200000,154777,Always on time,629,Rice,1.7,Drip System,Black cotton soil,10.6,9.2,1064.9,27.5,63.4,0.7,0.5
+FARM-1319,Rahul Sharma,200000,107090,Mostly on time,513,Sugarcane,9.5,Sprinkler,Sandy loam,8.3,6.9,734.5,31.9,64.6,0.64,1.59
+FARM-1320,Vijay Deshmukh,100000,78923,Mostly on time,692,Soybean,3.2,Canal,Alluvial,14.3,11.6,808.9,27.0,60.0,0.81,1.05
+FARM-1321,Vijay Verma,300000,171407,Always on time,709,Wheat,15.3,Rain-fed,Red loamy,12.3,12.1,789.4,34.1,49.6,0.86,5.22
+FARM-1322,Kavita Gaikwad,250000,157593,Mostly on time,579,Sugarcane,18.4,Sprinkler,Sandy loam,13.5,13.8,709.1,25.2,59.2,0.82,6.91
+FARM-1323,Anil Gaikwad,150000,83018,Always on time,597,Cotton,9.5,Sprinkler,Black cotton soil,9.7,8.4,814.3,23.9,53.4,0.42,1.92
+FARM-1324,Ramesh Kulkarni,50000,38096,Always on time,661,Wheat,6.3,Rain-fed,Black cotton soil,11.0,10.7,811.8,29.2,35.6,0.51,1.18
+FARM-1325,Priya Bhosale,100000,67704,Mostly on time,554,Onion,9.5,Sprinkler,Alluvial,14.6,14.9,814.4,32.5,48.4,0.7,1.52
+FARM-1326,Vijay Kulkarni,200000,107763,1 delayed payment,548,Wheat,14.9,Rain-fed,Alluvial,17.7,17.8,645.3,21.5,73.3,0.91,6.1
+FARM-1327,Sunita Deshmukh,150000,114645,Mostly on time,749,Wheat,1.7,Canal,Alluvial,8.5,6.8,762.9,26.2,83.8,0.86,0.91
+FARM-1328,Ramesh Joshi,150000,53915,Mostly on time,659,Rice,12.4,Drip System,Sandy loam,16.9,17.5,936.9,24.6,69.8,0.86,5.97
+FARM-1329,Deepak Shinde,50000,15113,Always on time,605,Wheat,12.8,Canal,Black cotton soil,13.8,11.9,767.6,27.6,83.2,0.57,4.24
+FARM-1330,Ganesh Joshi,300000,91278,Always on time,514,Onion,13.3,Drip System,Black cotton soil,13.6,11.6,829.1,27.0,61.3,0.64,3.59
+FARM-1331,Suresh Kale,200000,83421,Always on time,718,Onion,6.0,Rain-fed,Alluvial,13.0,10.0,830.1,32.4,86.1,0.66,1.41
+FARM-1332,Sachin Patil,250000,88787,Always on time,595,Soybean,14.7,Drip System,Red loamy,8.7,7.8,875.1,26.6,90.8,0.49,4.66
+FARM-1333,Ramesh Bhosale,150000,120683,Always on time,798,Wheat,3.2,Canal,Alluvial,8.9,7.0,900.6,32.5,34.0,0.42,0.5
+FARM-1334,Anil More,50000,13439,Always on time,718,Rice,5.2,Drip System,Sandy loam,14.0,11.5,768.7,25.7,63.3,0.92,1.69
+FARM-1335,Priya Joshi,250000,163585,Always on time,585,Wheat,17.7,Rain-fed,Alluvial,11.4,9.6,636.0,30.7,61.3,0.53,3.34
+FARM-1336,Anil Patil,300000,96898,Always on time,592,Cotton,15.2,Drip System,Alluvial,17.2,17.1,580.6,27.9,53.6,0.53,2.55
+FARM-1337,Ramesh Kulkarni,200000,154612,Mostly on time,787,Cotton,1.8,Sprinkler,Sandy loam,12.1,12.3,983.2,33.9,67.4,0.45,0.76
+FARM-1338,Kavita More,300000,247456,1 delayed payment,643,Rice,6.1,Canal,Alluvial,9.4,7.9,938.6,21.1,60.6,0.91,2.62
+FARM-1339,Sachin Bhosale,150000,75383,Always on time,608,Soybean,5.5,Sprinkler,Black cotton soil,15.1,15.2,916.9,22.3,49.0,0.72,1.3
+FARM-1340,Pooja Joshi,250000,192849,1 delayed payment,652,Soybean,6.5,Rain-fed,Red loamy,10.9,11.0,946.0,34.3,59.6,0.77,0.89
+FARM-1341,Anita Rao,250000,50836,1 delayed payment,608,Onion,6.1,Drip System,Alluvial,13.3,13.0,770.9,24.1,78.1,0.9,2.81
+FARM-1342,Suresh Bhosale,250000,183241,Always on time,669,Onion,2.7,Sprinkler,Sandy loam,15.0,11.9,687.5,24.3,62.7,0.59,1.57
+FARM-1343,Anil Deshmukh,150000,52290,Mostly on time,643,Sugarcane,10.0,Sprinkler,Red loamy,17.0,16.3,623.5,23.5,69.4,0.74,3.3
+FARM-1344,Anil Jadhav,150000,118598,Mostly on time,720,Rice,15.1,Drip System,Sandy loam,15.9,16.4,603.9,31.6,55.8,0.42,2.65
+FARM-1345,Ramesh Gaikwad,300000,60218,Mostly on time,618,Wheat,12.7,Drip System,Red loamy,14.8,14.1,1018.2,22.0,66.8,0.5,2.64
+FARM-1346,Ganesh Bhosale,100000,56151,Always on time,579,Rice,13.9,Canal,Red loamy,14.8,12.6,711.2,27.1,41.9,0.86,3.77
+FARM-1347,Kavita Gaikwad,300000,207543,Mostly on time,622,Sugarcane,3.0,Sprinkler,Alluvial,17.5,15.8,989.9,25.9,52.5,0.82,1.28
+FARM-1348,Kavita Rao,200000,73629,Always on time,621,Onion,19.1,Sprinkler,Black cotton soil,11.0,10.4,766.4,31.1,58.5,0.59,3.44
+FARM-1349,Suresh Kale,50000,16276,Mostly on time,643,Rice,17.0,Rain-fed,Alluvial,8.0,7.2,678.3,24.7,40.9,0.61,3.1
+FARM-1350,Mahesh Jadhav,250000,63665,Mostly on time,700,Rice,16.4,Canal,Sandy loam,10.7,8.4,603.0,28.7,47.5,0.69,2.42
+FARM-1351,Vijay Gaikwad,100000,41218,Mostly on time,696,Onion,16.7,Rain-fed,Sandy loam,10.2,8.6,694.1,22.3,64.7,0.4,2.67
+FARM-1352,Priya Deshmukh,50000,28194,Mostly on time,745,Sugarcane,18.8,Sprinkler,Red loamy,14.6,14.5,1055.3,36.1,61.9,0.53,2.64
+FARM-1353,Pooja More,100000,27529,Mostly on time,585,Onion,11.6,Rain-fed,Red loamy,14.3,14.4,604.8,26.0,72.1,0.51,2.14
+FARM-1354,Pooja Kulkarni,500000,222425,Always on time,681,Soybean,5.2,Sprinkler,Black cotton soil,13.9,11.0,1181.0,27.0,51.0,0.54,0.94
+FARM-1355,Vijay Chavan,300000,61769,Always on time,708,Wheat,12.9,Sprinkler,Alluvial,8.2,8.5,648.7,33.6,60.9,0.84,2.44
+FARM-1356,Priya Bhosale,150000,109821,1 delayed payment,596,Onion,15.2,Rain-fed,Sandy loam,15.3,13.0,935.0,24.7,49.9,0.55,3.43
+FARM-1357,Mahesh Shinde,250000,70872,Always on time,633,Sugarcane,15.2,Rain-fed,Red loamy,11.2,10.6,773.9,33.7,70.6,0.51,2.7
+FARM-1358,Kavita Sharma,300000,115251,Always on time,510,Cotton,11.1,Drip System,Black cotton soil,14.7,14.3,742.3,25.4,77.9,0.68,3.86
+FARM-1359,Mahesh Kulkarni,50000,10598,Always on time,722,Soybean,2.8,Drip System,Sandy loam,13.6,13.5,571.1,29.7,67.2,0.88,0.5
+FARM-1360,Anil Patil,500000,240478,Always on time,632,Cotton,8.4,Drip System,Red loamy,11.4,11.8,782.3,24.7,75.9,0.53,2.34
+FARM-1361,Anil Shinde,500000,373039,Frequently delayed,714,Onion,18.5,Sprinkler,Sandy loam,9.3,7.8,591.5,21.6,60.5,0.44,1.81
+FARM-1362,Suresh Patil,500000,227449,Mostly on time,666,Soybean,12.3,Rain-fed,Black cotton soil,8.9,9.0,497.3,28.7,72.1,0.6,2.33
+FARM-1363,Sunita Kulkarni,50000,15833,1 delayed payment,635,Wheat,11.5,Canal,Black cotton soil,16.3,12.9,821.5,29.6,61.1,0.81,4.33
+FARM-1364,Sunita Rao,50000,34495,Mostly on time,522,Onion,6.5,Sprinkler,Sandy loam,17.2,16.5,685.6,21.7,44.6,0.7,1.19
+FARM-1365,Priya Joshi,50000,35636,Always on time,536,Wheat,8.3,Canal,Alluvial,14.5,14.1,1103.2,25.8,63.7,0.85,1.85
+FARM-1366,Ramesh Jadhav,50000,15646,Always on time,442,Rice,18.1,Rain-fed,Sandy loam,9.0,8.6,980.0,31.8,45.1,0.93,3.96
+FARM-1367,Pooja Jadhav,500000,350527,Mostly on time,604,Cotton,13.8,Sprinkler,Red loamy,12.0,9.9,1105.5,29.4,95.0,0.84,5.29
+FARM-1368,Mahesh Kale,500000,407871,Always on time,832,Soybean,16.1,Canal,Alluvial,15.3,15.5,677.4,25.4,55.0,0.73,5.45
+FARM-1369,Mahesh Rao,100000,30814,1 delayed payment,546,Wheat,9.9,Canal,Red loamy,15.8,12.7,824.5,24.6,69.7,0.67,3.96
+FARM-1370,Ramesh Patil,300000,210341,1 delayed payment,439,Sugarcane,13.2,Drip System,Sandy loam,9.2,7.0,328.3,34.8,59.8,0.42,1.1
+FARM-1371,Vikram Shinde,250000,165142,Always on time,727,Wheat,6.1,Drip System,Alluvial,8.0,7.7,749.3,21.2,41.5,0.94,2.03
+FARM-1372,Mahesh Pawar,150000,76173,Frequently delayed,839,Sugarcane,14.6,Drip System,Red loamy,15.1,13.5,817.7,26.8,31.5,0.61,2.01
+FARM-1373,Pooja More,500000,118824,1 delayed payment,673,Onion,9.4,Sprinkler,Sandy loam,11.6,11.7,827.7,21.1,71.2,0.48,2.14
+FARM-1374,Anil Patil,150000,37282,Mostly on time,673,Soybean,9.7,Rain-fed,Sandy loam,10.5,9.1,792.4,32.3,83.2,0.77,4.57
+FARM-1375,Vijay Joshi,300000,226220,Always on time,625,Wheat,13.5,Rain-fed,Alluvial,8.1,6.5,812.0,27.0,49.0,0.56,1.92
+FARM-1376,Pooja Chavan,300000,253078,Always on time,506,Wheat,18.8,Drip System,Sandy loam,13.4,13.4,311.6,27.7,35.1,0.72,2.26
+FARM-1377,Anil Joshi,150000,95915,Mostly on time,533,Soybean,2.7,Drip System,Black cotton soil,16.5,15.1,846.1,38.1,55.1,0.72,0.5
+FARM-1378,Mahesh Jadhav,500000,244936,Always on time,624,Wheat,16.8,Drip System,Red loamy,17.6,14.2,887.0,24.6,45.9,0.65,3.47
+FARM-1379,Sachin Rao,150000,93138,Always on time,609,Sugarcane,6.9,Canal,Red loamy,13.7,13.2,1040.8,34.0,50.2,0.86,0.99
+FARM-1380,Anita Shinde,100000,58635,Mostly on time,640,Wheat,9.7,Drip System,Sandy loam,13.1,11.8,866.4,25.4,69.2,0.55,2.79
+FARM-1381,Anil Gaikwad,200000,89869,Always on time,716,Cotton,1.9,Canal,Sandy loam,8.9,8.3,776.5,26.1,59.2,0.65,0.53
+FARM-1382,Anita Sharma,500000,121328,Mostly on time,603,Onion,7.1,Rain-fed,Black cotton soil,13.5,12.0,998.9,37.6,47.6,0.7,0.67
+FARM-1383,Priya Kale,500000,366991,1 delayed payment,717,Rice,10.8,Sprinkler,Alluvial,11.8,11.8,375.7,26.4,68.8,0.76,2.13
+FARM-1384,Sachin Chavan,250000,110422,1 delayed payment,603,Sugarcane,2.5,Sprinkler,Sandy loam,14.1,14.1,707.3,21.5,70.0,0.83,0.5
+FARM-1385,Vijay More,50000,36610,Always on time,733,Cotton,10.6,Sprinkler,Sandy loam,11.9,11.5,662.2,28.1,54.9,0.62,1.87
+FARM-1386,Priya Shinde,200000,72826,1 delayed payment,656,Onion,18.7,Sprinkler,Sandy loam,10.4,8.1,793.8,26.3,62.1,0.76,6.45
+FARM-1387,Priya Jadhav,300000,60200,Always on time,615,Soybean,3.4,Canal,Sandy loam,8.9,8.9,404.2,28.5,67.8,0.48,0.55
+FARM-1388,Mahesh Jadhav,500000,151654,Always on time,655,Sugarcane,15.6,Canal,Red loamy,11.1,10.6,1037.5,26.5,66.4,0.91,6.45
+FARM-1389,Pooja Sharma,150000,75682,Mostly on time,626,Rice,9.1,Drip System,Sandy loam,9.0,8.6,755.0,35.9,60.6,0.61,1.33
+FARM-1390,Kavita Gaikwad,200000,162759,Always on time,659,Onion,13.6,Canal,Red loamy,9.8,8.4,857.4,29.2,81.5,0.8,5.23
+FARM-1391,Sunita Rao,250000,66606,Always on time,710,Rice,6.3,Drip System,Sandy loam,17.9,18.1,840.2,22.7,68.7,0.41,0.9
+FARM-1392,Anita Gaikwad,300000,226570,Mostly on time,643,Soybean,4.5,Drip System,Alluvial,12.4,12.0,1027.2,27.5,53.2,0.51,0.77
+FARM-1393,Priya Kale,50000,27128,Always on time,620,Soybean,4.5,Sprinkler,Black cotton soil,13.3,10.4,464.8,23.8,53.3,0.67,1.12
+FARM-1394,Sunita Bhosale,50000,36842,Always on time,560,Sugarcane,2.8,Canal,Alluvial,16.7,14.6,820.2,26.0,51.6,0.88,1.33
+FARM-1395,Deepak More,250000,98485,Always on time,696,Wheat,4.9,Canal,Sandy loam,18.0,18.3,1006.3,23.4,69.5,0.69,1.82
+FARM-1396,Suresh Verma,250000,186491,Mostly on time,677,Soybean,13.8,Drip System,Sandy loam,13.8,10.5,782.4,35.4,50.7,0.91,3.75
+FARM-1397,Sachin Chavan,150000,105350,Mostly on time,555,Onion,17.8,Drip System,Sandy loam,16.1,16.7,628.8,24.2,53.6,0.67,3.99
+FARM-1398,Kavita Gaikwad,500000,174767,Always on time,716,Wheat,16.6,Rain-fed,Alluvial,11.3,10.8,691.3,29.8,75.9,0.67,6.09
+FARM-1399,Sachin Patil,50000,14268,Always on time,554,Cotton,14.2,Rain-fed,Sandy loam,11.1,10.4,729.3,25.7,62.9,0.47,2.87
+FARM-1400,Pooja Pawar,300000,229270,Always on time,732,Rice,3.5,Drip System,Alluvial,12.0,10.0,670.2,22.4,78.0,0.84,1.51
+FARM-1401,Sunita Rao,200000,165220,Always on time,705,Wheat,6.8,Rain-fed,Red loamy,14.7,12.1,772.5,27.8,72.0,0.54,2.51
+FARM-1402,Pooja Kulkarni,300000,66103,Mostly on time,683,Rice,7.2,Rain-fed,Black cotton soil,14.8,15.3,1071.5,28.6,42.3,0.89,1.67
+FARM-1403,Kavita Chavan,100000,67532,Always on time,619,Wheat,6.1,Drip System,Black cotton soil,11.2,9.4,692.5,29.2,58.5,0.9,0.85
+FARM-1404,Suresh More,100000,79119,Always on time,696,Cotton,11.0,Drip System,Alluvial,9.3,9.1,712.2,16.5,74.8,0.92,3.97
+FARM-1405,Kavita Deshmukh,250000,189321,Mostly on time,736,Soybean,11.4,Canal,Red loamy,14.3,12.4,882.8,22.1,41.7,0.69,2.6
+FARM-1406,Priya Bhosale,150000,124040,Mostly on time,697,Cotton,8.1,Drip System,Alluvial,9.3,7.4,768.5,30.8,66.3,0.77,1.91
+FARM-1407,Priya Pawar,100000,69406,Mostly on time,596,Soybean,8.0,Drip System,Red loamy,13.8,10.4,560.7,23.3,59.4,0.83,2.64
+FARM-1408,Anil Kulkarni,50000,24374,Always on time,671,Soybean,16.8,Sprinkler,Sandy loam,14.9,13.6,789.0,27.8,33.7,0.47,2.1
+FARM-1409,Pooja Patil,300000,120830,Always on time,740,Rice,16.1,Canal,Red loamy,15.0,15.6,782.2,22.0,61.8,0.73,5.72
+FARM-1410,Rahul Shinde,300000,122544,Always on time,825,Onion,7.2,Canal,Red loamy,15.5,13.3,975.6,29.9,47.4,0.42,0.5
+FARM-1411,Ramesh Verma,250000,167718,Always on time,633,Cotton,18.4,Canal,Red loamy,16.7,14.3,625.0,30.7,42.5,0.67,3.3
+FARM-1412,Sunita Chavan,500000,342397,Mostly on time,718,Wheat,19.1,Sprinkler,Black cotton soil,13.0,11.1,976.8,29.9,60.1,0.49,3.18
+FARM-1413,Pooja Shinde,500000,165116,1 delayed payment,740,Cotton,7.5,Drip System,Red loamy,15.3,13.9,782.4,31.1,31.0,0.5,1.61
+FARM-1414,Vijay Pawar,200000,152855,Mostly on time,585,Rice,8.1,Canal,Sandy loam,14.2,12.5,600.6,33.3,49.9,0.6,2.52
+FARM-1415,Sachin Verma,250000,166175,Mostly on time,792,Soybean,10.9,Canal,Sandy loam,9.9,10.0,564.4,22.3,95.0,0.64,4.46
+FARM-1416,Anil Bhosale,200000,113157,Always on time,564,Rice,18.9,Rain-fed,Sandy loam,8.3,7.5,1148.2,23.8,69.8,0.74,5.13
+FARM-1417,Sachin Pawar,500000,253248,Mostly on time,714,Sugarcane,17.7,Canal,Red loamy,10.8,9.7,771.2,30.6,46.8,0.44,3.46
+FARM-1418,Sunita More,250000,138275,Always on time,674,Sugarcane,3.4,Drip System,Alluvial,12.4,9.8,968.6,31.5,81.1,0.68,1.28
+FARM-1419,Kavita Gaikwad,250000,75877,Mostly on time,654,Wheat,8.8,Drip System,Alluvial,14.2,14.8,492.5,24.3,45.1,0.5,0.62
+FARM-1420,Anil Jadhav,250000,83101,Always on time,850,Rice,11.7,Rain-fed,Sandy loam,16.5,13.6,1274.8,24.0,51.7,0.72,1.75
+FARM-1421,Vikram Kale,500000,129628,Always on time,625,Wheat,10.8,Canal,Black cotton soil,10.0,7.7,960.8,24.4,42.8,0.75,2.66
+FARM-1422,Pooja Bhosale,200000,59975,Always on time,624,Wheat,5.1,Canal,Alluvial,9.3,8.8,754.0,20.6,63.8,0.71,1.92
+FARM-1423,Suresh Joshi,200000,98980,Frequently delayed,756,Sugarcane,17.4,Canal,Red loamy,17.6,16.3,744.9,21.9,80.5,0.81,7.13
+FARM-1424,Vikram Gaikwad,250000,136182,Always on time,710,Wheat,14.0,Sprinkler,Alluvial,9.1,8.0,932.2,22.0,45.0,0.58,1.74
+FARM-1425,Vijay Joshi,100000,21161,Always on time,752,Sugarcane,17.0,Canal,Sandy loam,12.8,11.2,921.9,25.8,29.1,0.82,2.6
+FARM-1426,Ganesh Bhosale,150000,107687,Always on time,659,Soybean,17.4,Drip System,Black cotton soil,13.9,13.7,832.9,28.1,76.4,0.64,6.17
+FARM-1427,Anita Chavan,500000,195604,Mostly on time,675,Rice,15.3,Drip System,Alluvial,13.4,10.8,802.0,28.7,83.3,0.67,6.3
+FARM-1428,Sunita Patil,150000,118904,Mostly on time,802,Wheat,9.6,Sprinkler,Alluvial,8.9,8.9,901.0,25.0,30.1,0.76,1.65
+FARM-1429,Anil Bhosale,150000,124332,Mostly on time,583,Sugarcane,12.8,Sprinkler,Sandy loam,8.6,8.1,486.5,25.1,66.9,0.41,1.51
+FARM-1430,Sachin Rao,200000,64109,Always on time,641,Cotton,4.5,Canal,Black cotton soil,9.1,8.0,733.2,27.5,63.4,0.76,2.35
+FARM-1431,Mahesh Verma,200000,100072,Mostly on time,713,Wheat,14.0,Rain-fed,Black cotton soil,13.9,12.3,503.6,21.0,48.2,0.74,1.9
+FARM-1432,Sachin Patil,100000,20080,Always on time,634,Onion,4.8,Sprinkler,Sandy loam,13.4,11.1,908.8,30.8,39.1,0.57,1.27
+FARM-1433,Mahesh Kulkarni,150000,88336,1 delayed payment,604,Soybean,14.3,Sprinkler,Red loamy,10.3,10.0,678.4,32.1,74.9,0.45,2.95
+FARM-1434,Ramesh Pawar,150000,89212,Mostly on time,699,Soybean,5.7,Canal,Alluvial,14.4,13.0,517.1,24.5,62.7,0.45,1.55
+FARM-1435,Priya Pawar,250000,90225,Always on time,756,Cotton,3.7,Canal,Red loamy,16.2,13.7,657.1,25.4,63.8,0.91,1.23
+FARM-1436,Kavita Joshi,200000,112593,Always on time,638,Sugarcane,4.6,Sprinkler,Alluvial,8.4,7.8,826.9,32.0,50.7,0.78,1.02
+FARM-1437,Pooja Bhosale,150000,51990,Always on time,636,Wheat,1.5,Rain-fed,Alluvial,13.0,13.6,763.1,26.5,48.0,0.47,0.5
+FARM-1438,Pooja Verma,300000,91360,Always on time,598,Sugarcane,14.8,Sprinkler,Red loamy,14.9,13.1,588.8,29.4,23.2,0.6,0.87
+FARM-1439,Priya Pawar,100000,62348,Always on time,626,Soybean,15.0,Canal,Sandy loam,10.5,10.8,493.1,26.6,56.6,0.73,3.36
+FARM-1440,Priya More,300000,123555,Mostly on time,736,Sugarcane,11.0,Canal,Sandy loam,11.1,9.5,813.3,33.2,81.6,0.86,5.21
+FARM-1441,Sachin Sharma,300000,175101,Always on time,656,Soybean,4.5,Sprinkler,Alluvial,14.1,10.8,695.5,29.0,46.6,0.42,0.5
+FARM-1442,Vijay Kale,500000,240805,Always on time,585,Sugarcane,3.0,Rain-fed,Sandy loam,17.0,13.8,753.5,29.2,37.2,0.53,0.5
+FARM-1443,Anil Shinde,500000,419914,Always on time,670,Cotton,1.9,Sprinkler,Alluvial,16.1,14.1,771.3,29.3,66.5,0.89,0.5
+FARM-1444,Mahesh Deshmukh,100000,29722,Always on time,734,Rice,4.6,Sprinkler,Sandy loam,13.8,11.3,877.4,24.8,69.3,0.41,0.91
+FARM-1445,Anita Chavan,300000,150596,1 delayed payment,605,Cotton,18.0,Canal,Alluvial,15.3,11.5,952.5,25.1,51.2,0.51,3.1
+FARM-1446,Ramesh Rao,150000,96344,Always on time,543,Cotton,6.0,Rain-fed,Sandy loam,11.6,11.9,826.4,30.1,54.8,0.93,2.36
+FARM-1447,Anita Verma,200000,91420,Mostly on time,825,Rice,8.1,Drip System,Black cotton soil,14.4,14.4,742.3,27.5,64.0,0.74,2.67
+FARM-1448,Ramesh Sharma,100000,83355,1 delayed payment,539,Rice,3.4,Rain-fed,Red loamy,12.7,12.4,804.5,22.3,57.7,0.54,0.92
+FARM-1449,Rahul Pawar,250000,167306,Mostly on time,621,Wheat,5.6,Sprinkler,Black cotton soil,9.9,7.9,738.9,34.5,75.0,0.44,1.15
+FARM-1450,Anil Jadhav,300000,188111,1 delayed payment,668,Wheat,11.1,Sprinkler,Red loamy,15.0,11.8,504.3,30.9,95.0,0.42,2.13
+FARM-1451,Mahesh More,100000,69208,Always on time,628,Cotton,12.7,Sprinkler,Red loamy,13.6,10.5,996.6,27.2,34.4,0.53,1.73
+FARM-1452,Sachin Gaikwad,50000,40961,Frequently delayed,644,Cotton,6.0,Rain-fed,Alluvial,11.6,11.2,962.6,25.9,78.4,0.88,2.63
+FARM-1453,Ganesh Pawar,50000,39504,Always on time,696,Soybean,2.6,Canal,Red loamy,17.1,17.6,1157.9,27.8,61.6,0.63,1.29
+FARM-1454,Sachin Kulkarni,500000,335392,Always on time,458,Soybean,8.7,Sprinkler,Black cotton soil,8.2,7.2,1210.5,29.1,80.8,0.8,3.56
+FARM-1455,Sachin Sharma,200000,137391,Mostly on time,548,Wheat,5.8,Sprinkler,Black cotton soil,11.2,8.8,588.3,18.9,70.9,0.91,2.23
+FARM-1456,Ganesh Gaikwad,150000,44227,1 delayed payment,653,Onion,5.6,Rain-fed,Sandy loam,8.6,7.8,739.6,35.4,60.9,0.62,1.15
+FARM-1457,Sachin Shinde,200000,53363,1 delayed payment,617,Onion,19.3,Drip System,Black cotton soil,15.7,13.4,1252.1,23.8,71.4,0.51,3.27
+FARM-1458,Kavita Kulkarni,200000,114217,Always on time,660,Wheat,12.9,Drip System,Sandy loam,15.0,12.9,792.7,27.0,54.1,0.68,2.97
+FARM-1459,Kavita Joshi,200000,42387,Always on time,668,Soybean,11.8,Canal,Red loamy,11.3,10.6,844.0,27.1,48.4,0.9,3.74
+FARM-1460,Suresh Joshi,200000,102706,1 delayed payment,480,Soybean,9.2,Canal,Black cotton soil,14.8,14.3,526.2,35.0,72.2,0.84,1.8
+FARM-1461,Sachin Sharma,250000,84181,Always on time,751,Onion,9.4,Sprinkler,Red loamy,12.0,9.4,827.1,26.6,47.3,0.44,1.7
+FARM-1462,Mahesh Shinde,250000,106227,Mostly on time,610,Sugarcane,11.5,Rain-fed,Black cotton soil,15.6,11.9,1147.7,33.4,69.6,0.78,1.99
+FARM-1463,Deepak Pawar,500000,352136,1 delayed payment,580,Sugarcane,14.4,Sprinkler,Black cotton soil,12.5,13.1,1031.6,28.6,60.5,0.71,3.17
+FARM-1464,Anita Patil,100000,81180,Always on time,666,Soybean,14.5,Canal,Sandy loam,12.1,9.9,690.2,23.2,25.1,0.9,1.25
+FARM-1465,Mahesh Patil,50000,12353,Always on time,658,Sugarcane,4.7,Rain-fed,Red loamy,17.3,13.3,728.7,27.5,51.4,0.47,0.5
+FARM-1466,Priya Shinde,200000,109451,Always on time,745,Rice,10.8,Rain-fed,Black cotton soil,10.5,8.5,596.4,26.5,65.0,0.69,3.11
+FARM-1467,Pooja Joshi,500000,386823,Always on time,671,Wheat,9.1,Canal,Alluvial,9.2,7.0,646.8,22.7,53.9,0.88,2.26
+FARM-1468,Pooja Bhosale,100000,25363,1 delayed payment,742,Wheat,17.6,Drip System,Red loamy,13.8,12.0,456.2,28.4,21.8,0.63,1.66
+FARM-1469,Vikram Kale,50000,36796,Always on time,574,Soybean,13.2,Drip System,Red loamy,17.7,17.5,784.7,27.1,79.8,0.67,4.7
+FARM-1470,Pooja Pawar,300000,129771,1 delayed payment,661,Cotton,11.4,Rain-fed,Red loamy,11.8,10.1,1071.8,29.2,62.5,0.44,1.8
+FARM-1471,Suresh Kale,150000,61404,Always on time,560,Onion,3.6,Sprinkler,Sandy loam,8.6,7.6,864.0,27.8,66.7,0.55,0.52
+FARM-1472,Priya Verma,250000,208838,Frequently delayed,657,Soybean,12.7,Drip System,Alluvial,11.4,10.9,1045.9,24.4,52.9,0.58,2.5
+FARM-1473,Mahesh Deshmukh,300000,99167,Always on time,640,Sugarcane,3.7,Sprinkler,Red loamy,13.1,11.8,993.2,30.1,68.0,0.92,0.5
+FARM-1474,Kavita Kulkarni,50000,32528,Always on time,637,Onion,7.7,Drip System,Black cotton soil,9.6,9.7,701.6,24.5,87.5,0.56,2.45
+FARM-1475,Vikram Deshmukh,300000,220180,Always on time,638,Cotton,4.1,Drip System,Black cotton soil,14.6,14.7,663.3,15.0,49.0,0.65,0.5
+FARM-1476,Deepak Bhosale,150000,34015,Mostly on time,708,Sugarcane,14.3,Sprinkler,Sandy loam,18.0,13.6,670.2,27.5,85.0,0.77,6.41
+FARM-1477,Priya Jadhav,500000,317875,Mostly on time,521,Rice,5.3,Canal,Black cotton soil,12.5,12.3,490.9,24.8,66.0,0.49,1.17
+FARM-1478,Ganesh Patil,50000,40925,1 delayed payment,578,Sugarcane,8.7,Drip System,Red loamy,11.5,10.2,805.8,28.5,47.0,0.67,1.3
+FARM-1479,Rahul Patil,300000,84222,Always on time,646,Rice,18.1,Drip System,Black cotton soil,12.0,12.6,300.0,35.0,93.2,0.81,3.54
+FARM-1480,Suresh Verma,250000,195635,Always on time,555,Onion,5.3,Sprinkler,Red loamy,9.2,8.2,906.5,35.1,65.9,0.88,1.07
+FARM-1481,Ramesh More,250000,146651,Mostly on time,653,Rice,10.9,Canal,Black cotton soil,16.8,17.6,812.9,26.3,70.1,0.74,4.74
+FARM-1482,Priya Gaikwad,100000,60079,Always on time,645,Onion,9.3,Drip System,Alluvial,12.1,11.8,884.9,23.7,56.0,0.77,3.44
+FARM-1483,Anita Chavan,300000,179524,Always on time,537,Onion,1.8,Drip System,Sandy loam,11.9,9.8,990.3,29.3,48.1,0.47,0.5
+FARM-1484,Rahul More,200000,78848,Frequently delayed,533,Onion,16.2,Canal,Sandy loam,14.6,13.3,835.8,25.5,62.5,0.92,7.48
+FARM-1485,Deepak Patil,300000,242364,Frequently delayed,440,Onion,2.8,Drip System,Alluvial,12.4,13.0,1093.7,28.6,83.7,0.47,0.5
+FARM-1486,Pooja Patil,500000,407888,1 delayed payment,552,Onion,10.3,Canal,Alluvial,14.5,14.6,912.0,24.4,55.4,0.83,3.16
+FARM-1487,Suresh Chavan,50000,30322,Mostly on time,651,Sugarcane,11.9,Canal,Sandy loam,8.6,6.7,663.7,28.0,59.6,0.55,2.44
+FARM-1488,Anil Verma,50000,35461,Always on time,662,Onion,13.1,Sprinkler,Alluvial,16.1,15.5,757.2,23.8,81.8,0.91,8.07
+FARM-1489,Ramesh Sharma,500000,298983,Always on time,666,Sugarcane,14.2,Rain-fed,Red loamy,17.4,14.9,393.0,31.7,55.5,0.8,1.82
+FARM-1490,Sunita Pawar,300000,154457,Mostly on time,587,Onion,6.2,Canal,Black cotton soil,14.5,10.9,637.6,24.6,67.7,0.81,2.67
+FARM-1491,Sachin Patil,500000,314766,1 delayed payment,648,Rice,1.7,Sprinkler,Sandy loam,17.5,15.2,731.4,29.6,73.2,0.52,0.5
+FARM-1492,Priya Verma,150000,83917,Always on time,681,Onion,14.9,Rain-fed,Alluvial,9.5,7.8,898.3,21.9,57.0,0.64,2.9
+FARM-1493,Priya Pawar,500000,294179,Always on time,548,Cotton,11.4,Drip System,Red loamy,12.8,12.7,664.9,30.1,64.6,0.74,3.14
+FARM-1494,Anil Sharma,250000,177372,Always on time,659,Onion,17.0,Rain-fed,Sandy loam,14.0,11.9,575.7,23.1,69.9,0.82,5.68
+FARM-1495,Sunita Sharma,500000,256293,Mostly on time,702,Onion,16.7,Canal,Alluvial,13.8,13.8,460.2,28.0,54.0,0.46,0.55
+FARM-1496,Priya Sharma,50000,11324,1 delayed payment,610,Rice,17.1,Canal,Sandy loam,12.0,9.0,692.6,31.1,72.2,0.93,7.12
+FARM-1497,Kavita Gaikwad,250000,76649,Mostly on time,734,Wheat,10.5,Canal,Alluvial,11.4,9.6,1151.2,26.2,51.8,0.89,1.34
+FARM-1498,Anil Patil,50000,24254,Always on time,612,Rice,7.7,Canal,Sandy loam,9.3,7.6,848.8,22.9,49.9,0.55,1.42
+FARM-1499,Priya Rao,100000,67113,Frequently delayed,581,Cotton,16.1,Canal,Red loamy,11.9,9.8,969.1,29.0,37.1,0.85,3.59
+FARM-1500,Mahesh Rao,200000,117126,Mostly on time,694,Wheat,9.8,Sprinkler,Red loamy,9.6,7.4,638.0,23.6,52.4,0.69,3.37
